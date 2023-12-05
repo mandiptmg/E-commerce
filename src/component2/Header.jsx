@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import logo from '../asset/1696417883944.jpg/'
+
 import { FaCartShopping, FaBars } from 'react-icons/fa6'
 import {FaTimes } from 'react-icons/fa'
 import { useState } from 'react';
@@ -20,7 +20,7 @@ const Header = () => {
         <div className='flex w-[90vw] mx-auto items-center justify-between'>
           <div className=' gap-x-2  items-center'>
             <NavLink to='/'>
-              <img src={logo} alt='logo' className='w-9  h-9 rounded-full' />
+             <h1 className='text-xl text-indigo-500 font-semibold'>Techno-Shop</h1>
             </NavLink>
           </div>
           <div className='flex items-center gap-5 lg:gap-10'>
