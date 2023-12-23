@@ -124,7 +124,7 @@ const FilterSection = () => {
         </div>
         <div className='mt-8'>
           <h3 className='text-md font-semibold text-blue-gray-800 capitalize'>
-            colors
+            price
           </h3>
           <p>
             <FormatePrice price={price} />
